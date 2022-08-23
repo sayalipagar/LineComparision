@@ -4,7 +4,9 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            Camparision camparision = new Camparision(1, 2, 3, 4);
+            camparision.CaculateLength();
+
         }
     }
 }
